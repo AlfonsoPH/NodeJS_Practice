@@ -1,0 +1,35 @@
+﻿.header {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    gap: 20px;
+}
+
+.content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-info {
+    display: grid;
+    place-items: center;
+}
+
+#pfp {
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: center;
+    align-items: center;
+    margin: 10px;
+}
+
+#info {
+    z-index: 2;
+    justify-self: center;
+    align-items: center;
+    margin: 10px;
+}
