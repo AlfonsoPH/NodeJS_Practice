@@ -1,5 +1,6 @@
 <Solution>
   <Folder Name="/Solution Items/">
+    <File Path=".env" />
     <File Path="home.html" />
     <File Path="index.js" />
     <File Path="profile.html" />
